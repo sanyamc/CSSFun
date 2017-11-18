@@ -1,0 +1,99 @@
+/*
+Beige
+terra cota:E07A5F
+arsenic (header):3D405B
+green sheen
+peach-orange:F2CC8F
+
+/* Coolors Exported Palette - coolors.co/423629-4f5d2f-7d7e75-b0b2b8-cfd6ea */
+
+
+
+/* RGB 
+$color1: rgba(66, 54, 41, 1); old burgandy
+$color2: rgba(79, 93, 47, 1);  dark green
+$color3: rgba(125, 126, 117, 1); smoke
+$color4: rgba(176, 178, 184, 1); ash grey
+$color5: rgba(207, 214, 234, 1); soap
+*/
+
+/*
+
+Reference for Pseudo selectors:
+https://tympanus.net/codrops/css_reference/
+
+Display and Layouts
+
+Block vs Inline elements
+
+Most elements are block like p, div
+    - they take 100% if width of the container
+    - They always start on a new line
+    - They can nest other block level elements or inline elements.
+
+Inline elements
+    - its not valid to nest block except anchor tags
+    - Elements are aligned left, in a line.
+    - Width and height will be same and won't change.
+    - Display property could be used to set the width and height.
+        - inline-block gives the benefit of both to an inline element like
+          side by side and width and height of a block.
+
+CSS BOX MODEL:
+    - Every element is its own box.
+    - Remember that inline element requires display prop to apply width and height
+    - Padding in a box element refers to inside of element.
+    - Margin is outside of element.
+    - Border is between margin and padding.
+    - NOTE: both margin and padding are available to inline elements and are applied to them
+             horizontally however they are displayed in a line
+             BUT to apply it vertically use display: inline-block
+
+    - CENTER ALIGN the value of inner text so that no matter what the size of browser it will
+      be center.
+      use margin: 0 auto to do so.
+
+
+Important: way to check is to have a bg color of an element.
+
+Typeface: set of fonts
+
+Example:
+1) Serif: font system have small decorative lines e.g. Rockwell, Georgia, timesnew roman
+2) sans serif: no decorative line
+3) Monospace: Popular for displaying code; 
+*/
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color:#3d405b;
+    color: white;
+}
+
+header h1{
+    font-size: 80px;
+
+    font-family: 'Amatic SC', cursive; 
+}
+header h2{
+
+    font-family: 'Amatic SC', cursive; 
+}
+
+.workEx {
+    background-color: #f2cc8f
+}
+
+.content-wrapper {
+   max-width: 900px;
+    margin: 0 auto;
+    padding:50px;
+}
+
+
+
+
